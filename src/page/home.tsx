@@ -1,5 +1,8 @@
 import React,{Fragment} from 'react';
 import {Container} from 'react-bootstrap';
+import Information from './info';
+import Wave from '../media/wave.svg';
+import Lower from '../media/lower.svg';
 export default function HomePage () {
   return (
     <Fragment>
@@ -59,9 +62,11 @@ export default function HomePage () {
         </div>
     </div>
 </div>
-
-      </div>
+</div>
+    <Information />
       </Container>
+      <img src={Wave} />
+      <img src={Lower} />
     </Fragment>
     )
 }

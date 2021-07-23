@@ -245,3 +245,47 @@
         left: 25px;
     }
 }
+
+.wave {
+ display: block;
+ position: relative;
+ top: -2px;
+ height: 50px;
+ background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 360 50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path fill="rgba(152, 48, 255, 1)" d="M 0 40 C 95.5 40 95.5 110 191 110 L 191 110 L 191 0 L 0 0 Z" stroke-width="0"></path> <path fill="rgba(152, 48, 255, 1)" d="M 190 110 C 275 110 275 36 360 36 L 360 36 L 360 0 L 190 0 Z" stroke-width="0"></path> </svg>');
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+.text {
+  bottom: 30px;
+}
+@media (max-width:359px) {
+ .wave {
+   background-size: contain;
+ }
+}
+
+.animated-text {
+  margin-top: 20px;
+  text-align: center;
+}
+.animated-text h3 {
+  font-weight: bold;
+}
+.color {
+  color: #9830FF;
+}
+.bold {
+  font-weight: bold;
+}
+.animated-text .btn-primary::hover {
+  border-color: #9830FF;
+  outline: none
+}
+.animated-text .btn-primary::focus {
+  border-color: #9830FF;
+  outline: none
+}
+.animated-text .btn-primary::active{
+  border-color: #9830FF;
+  outline: none
+}
