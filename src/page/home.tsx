@@ -2,7 +2,8 @@ import React,{Fragment} from 'react';
 import {Container} from 'react-bootstrap';
 import Information from './info';
 import Wave from '../media/wave.svg';
-import Lower from '../media/lower.svg';
+import Feature from './services';
+
 export default function HomePage () {
   return (
     <Fragment>
@@ -65,8 +66,9 @@ export default function HomePage () {
 </div>
     <Information />
       </Container>
-      <img src={Wave} />
-      <img src={Lower} />
+      <img src={Wave} alt="wave" />
+      <img style={{transform: "rotate(180deg)"}} src={Wave} alt="wave" />
+      <Feature />
     </Fragment>
     )
 }

@@ -1,9 +1,9 @@
 import React, {Fragment} from 'react';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
+//import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import {Button} from 'react-bootstrap';
 
-const useStyles = makeStyles((theme: Theme) =>
+/*const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
       flexGrow: 1,
@@ -15,9 +15,9 @@ const useStyles = makeStyles((theme: Theme) =>
     },
   }),
 );
-
+*/
 export default function Information () {
-  const classes = useStyles();
+  /*const classes = useStyles(); */
 
   return (
     <Fragment>
